@@ -1,0 +1,127 @@
+body {
+  font-family: 'El Messiri', sans-serif;
+  margin: 0px;
+}
+
+.header {
+  background-image: url(images/bg\ 1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+
+  margin-right: 90px;
+  font-size: 28px;
+}
+
+.nav-item:hover {
+  color: yellow;
+}
+
+.nav-item:last-child {
+  margin-right: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+
+.text-title {
+  color:white;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 225px;
+  font-weight: 800;
+}
+
+.subtitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 70px;
+  font-weight: 800;
+}
+
+.input {
+  font-size: 24px;
+  outline: none;
+  padding-left: 15px;
+  width: 400px;
+  height: 67px;
+  border: 4px #8D8D8D solid;
+  border-radius: 20px;
+}
+
+.forma {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #5B89CE;
+  padding: 15px 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+
+  border: 2px #476443 solid;
+  border-radius: 25px;
+}
+
+.btn:hover {
+ background-color: #2d5186;
+}
+
+.button {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.title-galery {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 30px 5px 0px #43404040;;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: rgb(235, 228, 221);
+  width: 445px;
+  border-radius: 20px;
+  margin-left: 10px;
+  
+}
+
+.card-images {
+  width: 390px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.sity {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 7px;
+}
+.card p {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(82, 80, 80);
+  text-align: center;
+  font-size:20px ;
+  font-weight: 500;
+  margin-top: -20px;
+}
